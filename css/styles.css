@@ -113,21 +113,12 @@ gap: 40px;
 }
 
 .nav-list-item {
-   position: relative;
-        color: #404bbf;
-        transition: cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 
 .nav-list-item:hover::after,
 .nav-list-item:focus::after {
-content: "";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
+
 }
 
 .nav-list-item::after {
@@ -141,7 +132,9 @@ font-weight: 500;
     color: #2E2F42;
     display: block;
     padding: 24px 0;
-     
+     position: relative;
+        color: #404bbf;
+        transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
     
 
